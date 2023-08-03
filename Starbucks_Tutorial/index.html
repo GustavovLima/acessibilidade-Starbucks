@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Starbucks coffee</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="center">
+            <div class="logo"><img src="assets/logo.png" alt=""></div><!-- logo -->
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">Menu</a>
+                <a href="#">What's New</a>
+                <a href="#">Contact Us</a>
+            </div><!-- menu -->
+        </div><!-- center -->
+    </header>
+    <section class="about">
+        <div class="extras">
+            <img src="assets/img1.png" />
+            <div class="social-media">
+                <a href="#"><img src="assets/facebook.png" alt=""></a>
+                <a href="#"><img src="assets/instagram.png" /></a>
+                <a href="#"><img src="assets/twitter.png" /></a>
+            </div><!-- social-media -->
+        </div><!-- extras -->
+        <div class="center">
+            <div class="texto-sobre">
+                <h1>It's not just Coffee<br />It's <span>Starbucks</span> </h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc felis felis, lacinia vitae metus in,
+                    consequat facilisis odio. Pellentesque vitae est quis eros dignissim iaculis. Duis sapien mauris,
+                    ullamcorper et odio eget, tincidunt tempus lacus. Phasellus ornare, tellus eget molestie varius,
+                    tortor sem gravida neque, quis semper dolor ante in mauris. Vivamus ultricies urna elit, in
+                    tincidunt ligula laoreet at.
+                </p>
+                <button>Learn more</button>
+            </div>
+        </div>
+    </section><!-- sobre -->
+
+    ... <!-- Conteúdo da página -->
+
+    ...<!-- Acessibilidade Libras-->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+</body>
+
+</html>
